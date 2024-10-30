@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="discription" content="Ejercicio 5 de Lenguaje de marcas de Terra">
+    <meta name="keywords" content="Bocadillos Hamburguesas, Actuaciones, Monologos, Conciertos">
+    <meta name="author" content="Tera Alcaire">
+    <meta name="copyright" content="Terra Alcaire">
+    <link rel="icon" type="img/jpg" href="img/favicon.jpg"></link>
+    <title>Bocateria</title>
+</head>
+<body style=" width: 1920px; background-color:#f1e6c8; position: relative;">
+    <p style="font-size:25px; text-align: right; color: #731702; font-family: Verdana, Geneva, Tahoma, sans-serif;"> 
+        <a href="index.html">Inicio</a> /  
+        <a href="conocenos.html">Conócenos</a> / 
+        <a href="dondeestamos.html">Donde estamos</a> /  
+        <a href="lacarta.html">La carta</a> /  
+        <a href="eventos.html">Eventos</a> / 
+        Contactos
+        <img src="img/logo.jpg" alt="logo">
+    </p>
+    
+    <div align="center">
+        <a href="Tu Bocateria dispuesta a hacer tu bocadillo soñado y con música de fondo.">
+        <img src="img/baner.jpg" alt=""></a>
+    </div>
+
+    <p style="
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size:100px; 
+        text-align: center; 
+        color: #731702; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;"> 
+            Contactos
+    </p>
+
+    <div style="
+        width:970px;
+        height:392px;
+        position:absolute;
+        top:550px;
+        left:480px;">
+    <form style="font-size:20px" action="recepcionformulario.php" method="get">
+        <fieldset style="background-color: #E1651D;">
+            <legend><h1>Datos personales</h1> </legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos"><br><br>
+            <label for="dniopasaporte">DNI o PASAPORTE:</label>
+            <input type="text" id="dniopasaporte" name="dniopasaporte"><br><br>
+            Sexo 
+            <input type="radio" name="sexo" value="1">Masculino
+            <input type="radio" name="sexo" value="2">Femenino
+            <input type="radio" name="sexo" value="3">Otro
+            <textarea name="comentario" rows="4" cols="100">
+                Escriba aquí si quiere que le tratemos de algún modo en concreto...
+            </textarea>
+        </fieldset>
+
+        <fieldset style="background-color: #E1651D;">
+            <legend><h1>Datos de contacto</h1> </legend>
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="telefono"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="codigopostal">Codigo postal:</label>
+            <input type="text" id="codigopostal" name="codigopostal"><br><br>
+            <textarea name="comentario" rows="4" cols="100">
+                Dirección: ejemplo (Calle valencia 25)
+            </textarea>
+        </fieldset>
+
+        <fieldset style="background-color: #E1651D;">
+            <legend><h1>Eventos</h1></legend>
+            Colaborar o contratar para un evento <br>
+            <select multiple name="tec">
+                <option selected value="1">Información</option>
+                <option value="2">Monólogos</option>
+                <option value="3">Conciertos</option>
+                <option value="4">Presentaciones</option>
+                <option value="5">Privado</option>
+            </select>
+            <br><br>
+            <textarea name="comentario" rows="10" cols="100">
+            Explíquenos que quiere de nosotros.
+            </textarea>
+        </fieldset>
+        <input type="checkbox" name="politicaprivacidad" id="politicaprivacidad">
+            Acepto la <a href="politicaprivacidad.html">politica de privacidad</a> <br><br>
+        <input type="submit" value="Envio">
+        <input type="reset" value="Borrar">
+    </form>
+    </div>
+
+</body>
+<footer style="
+    width:1980px;
+    height:120px;
+    position:absolute;
+    top:1800px;
+    left:0px;" >
+        <p style="font-size:25px; text-align: center; color: #731702; font-family: Verdana, Geneva, Tahoma, sans-serif;"> 
+            <a href="politicaprivacidad.html">Politica de privacidad</a> 
+            &nbsp;&nbsp;/&nbsp;&nbsp;  
+            <a href="avisolegal.html">Aviso legal</a>
+        </p>
+        <p style="font-size:25px; text-align: center; color: #731702; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            fotografias de : Pexels y Leonardo (IA) &nbsp; &nbsp; &nbsp; Todos los derechos reservados @Terraalcaire  &nbsp; &nbsp; &nbsp;  Web creada por : Terra Alcaire
+        </p>
+        
+</footer>
+</html>
